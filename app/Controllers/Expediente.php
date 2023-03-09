@@ -126,7 +126,7 @@ class Expediente extends BaseController
             $model->delete($expediente);
 
             return $this->getResponse([
-                'message' => 'Expediente deleted successfully',
+                'message' => 'Expediente deleted successfully...',
             ]);
 
         } catch (Exception $exception) {
