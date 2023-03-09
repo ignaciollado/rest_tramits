@@ -60,3 +60,10 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+## REST requirements
+
+- First you need to login with a valid user/password suplied by IDI
+- Then you need to get the token generated when you do a valid login
+- Finally you consume the REST
+
