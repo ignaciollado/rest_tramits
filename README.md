@@ -63,7 +63,9 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ## REST requirements
 
-- First you need to login with a valid user/password suplied by IDI
-- Then you need to get the token generated when you do a valid login
-- Finally you consume the REST
+- First you get the END-POINTS and a user/password from IDI
+- Second you need to login with a valid user/password suplied by IDI
+- Third you need to get the token generated when you do a valid login
+- Finally, passing the token, you consume the REST you need
+
 
